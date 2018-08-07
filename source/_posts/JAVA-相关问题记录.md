@@ -1,9 +1,15 @@
-title: JAVA 相关问题记录
+title: >-
+  IDEA Tomcat启动项目报错
+  java.lang.ClassNotFoundException:org.springframework.web.context.ContextLoaderListener
 author: Keaper
-date: 2018-01-21 01:34:08
 tags:
+  - JAVA
+  - IDEA
+  - Tomcat
+categories: []
+date: 2018-01-21 01:34:00
 ---
-#### IDEA Tomcat启动项目报错
+IDEA Tomcat启动项目报错
 
 ```
 java.lang.ClassNotFoundException:org.springframework.web.context.ContextLoaderListener
@@ -16,8 +22,3 @@ maven项目配置web项目，配置spring时启动报错，发现找不到Contex
 
 
 参考链接：[https://www.jianshu.com/p/18d068f47b09](https://www.jianshu.com/p/18d068f47b09)
-
-
-#### IDEA问题集锦
-
-[https://blog.gmem.cc/intellij-idea-faq](https://blog.gmem.cc/intellij-idea-faq)

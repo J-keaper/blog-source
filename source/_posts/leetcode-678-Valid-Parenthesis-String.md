@@ -1,7 +1,6 @@
 title: leetcode 678. Valid Parenthesis String
 author: Keaper
-tags:
-  - leetcode
+tags: []
 categories:
   - leetcode
 date: 2017-09-19 17:39:00

@@ -1,14 +1,14 @@
 title: leetcode 6. ZigZag Conversion
-tags:
+tags: []
+categories:
   - leetcode
-categories: []
 date: 2017-07-02 18:47:00
 ---
 ## 题目链接：
-[https://leetcode.com/problems/zigzag-conversion/#/description][1]
+[https://leetcode.com/problems/zigzag-conversion/#/description](https://leetcode.com/problems/zigzag-conversion/#/description)
 ## 题意：
 给一个字符串，要求将字符串排列成锯齿状，然后按行从左到右输出。如下图，原来的字符串顺序为： BFGAHIDJKCLME，按行读就是BDEFIJMGHKLAC。
-![图示][2]
+![图示](\images\pasted-3.png)
 
 ## 题解：
 找规律即可，按行来看相邻两个点的距离分为两个，假设为a和b，第 i 行为[2*(n-i-1)，2*i]，第一行相当于b为0，第二行相当于a为0，距离为零表示两点重合，不考虑。依次输出。
@@ -54,7 +54,3 @@ int main()
     return 0;
 }
 ```
-
-
-  [1]: https://leetcode.com/problems/zigzag-conversion/#/description
-  [2]: http://img.blog.csdn.net/20170702224520216

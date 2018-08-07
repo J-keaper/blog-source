@@ -1,7 +1,10 @@
 title: JAVA WEB相关问题记录
 author: Keaper
-date: 2018-07-15 16:51:04
 tags:
+  - JAVA
+  - WEB
+categories: []
+date: 2018-07-15 16:51:00
 ---
 ### 添加了@ResponseBody注解但是返回500错误
 
@@ -222,7 +225,7 @@ public class TokenInterceptor implements HandlerInterceptor {
 [SpringMVC处理静态文件源码分析](https://my.oschina.net/pingpangkuangmo/blog/388208)
 
 
-
+以下为占坑
 ### typehandler 
 
 

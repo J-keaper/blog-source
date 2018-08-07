@@ -1,7 +1,11 @@
 title: C++ 常量指针和指针常量
 author: Keaper
-date: 2017-09-28 21:31:04
 tags:
+  - C++
+  - 指针常量
+  - 常量指针
+categories: []
+date: 2017-09-28 21:31:00
 ---
 原文链接：
 [http://www.cnblogs.com/beanmoon/archive/2012/09/23/2698987.html](http://www.cnblogs.com/beanmoon/archive/2012/09/23/2698987.html)

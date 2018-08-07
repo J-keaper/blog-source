@@ -1,8 +1,8 @@
 title: leetcode 680. Valid Palindrome II
 author: Keaper
-tags:
+tags: []
+categories:
   - leetcode
-categories: []
 date: 2017-09-19 14:44:00
 ---
 ## 题目
