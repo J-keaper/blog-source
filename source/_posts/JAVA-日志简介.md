@@ -1,10 +1,10 @@
+---
 title: JAVA 日志简介
 author: Keaper
 tags:
   - JAVA
   - 日志
 categories:
-  - JAVA
 date: 2018-10-28 20:43:00
 ---
 当我们开发应用程序时，它可能不会按照我们预期的运行，这个时候通常我们会DEBUG，来观察程序中的代码分支(if,else)，观察一些变量在运行中的值等等以便确定程序的运行过程。但是，在生产环境，我们通常没有办法，或者不能够很容易去进行DEBUG。因此，更好的方法是使用日志工具。
@@ -245,7 +245,7 @@ public class App {
 |`slf4j-jcl.jar`|commons-logging|
 
 同时`logback`内置slf4j实现，所以使用`logback`并不需要`binding jar`。  
-![](http://phb8vtude.bkt.clouddn.com/concrete-bindings.png)
+![](https://blog-picture.nos-eastchina1.126.net/picture0005.png)
 
 引入了对应的`binding jar`之后，我们还需要引入日志实现库所需要的依赖。  
 例如如果我们用`Log4j`作为日志实现，除了`slf4j-api`需要引入，还需要引入
@@ -290,7 +290,7 @@ public class App {
 ### slf4j bridging
 如果在你依赖的模块中使用了别的日志库，而在你的项目中你使用的是`slf4j`,这个时候`slf4j` 提供了一些桥接模块可以避免你同时对多个日志库进行配置，这些桥接模块可以重定向对其他日志库的调用到`slf4j`.
 官方图表达的很清晰：
-![](http://phb8vtude.bkt.clouddn.com/legacy.png)
+![](https://blog-picture.nos-eastchina1.126.net/picture0006.png)
 
 ## Logback
 `Logback`是由`Log4j`创始人设计的又一个开源日日志组件。`Logback`当前分成三个模块：`logback-core`,`logback-classic`和`logback-access`。  
@@ -453,7 +453,7 @@ public class App {
 
 commons-logging和slf4j都可以作为JDKLog和Log4j 1的日志门面，此外slf4j还能够作为commons-logging本身和logback的门面框架。
 他们之间的关系可以用下图表示：  
-![](http://phb8vtude.bkt.clouddn.com/log.png)
+![](https://blog-picture.nos-eastchina1.126.net/picture0007.png)
 
 ## 参考
 1. [JDKLog文档](https://docs.oracle.com/javase/8/docs/technotes/guides/logging/overview.html)
