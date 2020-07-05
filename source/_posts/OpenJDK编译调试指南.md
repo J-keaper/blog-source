@@ -7,7 +7,10 @@ author: Keaper
 date: 2020-07-04 18:46:00
 ---
 
-本篇文章主要介绍在`MacOS`系统和`Ubuntu`系统上如何编译`OpenJDK`项目代码，并使用`IDE`工具`JetBrains CLion`（下文简称`CLion`）来运行/调试`OpenJDK`。文中仅包含两种操作系统的特定版本（`MacOS 10.15`和`Ubuntu 16.04`）下的方法，不同版本下可能会略有差异。希望对读者有一定的参考价值。
+本篇文章主要介绍在`MacOS`系统和`Ubuntu`系统上如何编译`OpenJDK`项目代码，并使用`IDE`工具`JetBrains CLion`（下文简称`CLion`）来运行/调试`OpenJDK`。
+<!-- more -->
+
+文中仅包含两种操作系统的特定版本（`MacOS 10.15`和`Ubuntu 16.04`）下的方法，不同版本下可能会略有差异。希望对读者有一定的参考价值。
 
 总体来说，编译`OpenJDK11`在两种系统上都没有太大的阻碍，难度低于`OpenJDK8`。编译`OpenJDK8`在`Ubuntu`上比较简单，在`MacOS`上比较繁琐复杂。
 
